@@ -22,7 +22,7 @@ It is designed as a modern, responsive landing page for a fitness center or gym.
 ---
 
 ## 🔗 Live Demo
-👉 [View Live Project]()  
+👉 [View Live Project](https://saranazari123.github.io/Royal-Fitness/)  
 
 
 ---
