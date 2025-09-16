@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ROYAL FITNESS Registration</title>
+  <link rel="stylesheet" href="./style (2).css" />
+</head>
+<body>
+  <div class="container">
+    <h3>-Welcome To Royal Fitness Gym</h2>
+    <!-- <h2>Join Now</h2> -->
+    <form>
+      <div class="form-group">
+        <label for="fullname">Full Name</label>
+        <input type="text" id="fullname" name="fullname" placeholder="Enter Your Fullname" required />
+      </div>
+      <div class="form-group">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" placeholder="Your Email Adress" required />
+      </div>
+      <div class="form-group">
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone" placeholder="Avalible Phone Number" required />
+      </div>
+      <div class="form">
+        <label for="membership">Membership Plan</label>
+        <select id="membership" name="membership" required>
+         <option disabled selected>Select a plan</option> 
+         <option value="basic">Basic</option>
+          <option value="premium">Pro</option>
+          <option value="elite">PREMIUM</option>
+        </select> 
+      </div>
+      <div class="form-group">
+        <label for="password">Create Password</label>
+        <input type="password" id="password" name="password" placeholder="••••••••" required />
+      </div>
+     <input type="submit" class="submit" value="Submit" />
+    </form>
+  </div>
+</body>
+</html>
